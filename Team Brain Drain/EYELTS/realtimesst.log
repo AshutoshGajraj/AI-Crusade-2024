@@ -1,0 +1,421 @@
+2024-11-30 17:27:56.603 - RealTimeSTT: root - INFO - Starting RealTimeSTT
+2024-11-30 17:27:56.655 - RealTimeSTT: root - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2024-11-30 17:27:56.657 - RealTimeSTT: root - INFO - Initializing WebRTC voice with Sensitivity 3
+2024-11-30 17:27:56.657 - RealTimeSTT: root - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2024-11-30 17:28:35.958 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg6
+2024-11-30 17:28:35.964 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torch\_ops.py", line 1295, in load_library
+    ctypes.CDLL(path)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'F:\Programs\anaconda3\envs\torchdl\Lib\site-packages\torio\lib\libtorio_ffmpeg6.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-11-30 17:28:35.971 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg5
+2024-11-30 17:28:35.982 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torch\_ops.py", line 1295, in load_library
+    ctypes.CDLL(path)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'F:\Programs\anaconda3\envs\torchdl\Lib\site-packages\torio\lib\libtorio_ffmpeg5.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-11-30 17:28:35.982 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg4
+2024-11-30 17:28:35.988 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torch\_ops.py", line 1295, in load_library
+    ctypes.CDLL(path)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'F:\Programs\anaconda3\envs\torchdl\Lib\site-packages\torio\lib\libtorio_ffmpeg4.pyd' (or one of its dependencies). Try using the full path with constructor syntax.
+2024-11-30 17:28:35.989 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg
+2024-11-30 17:28:35.989 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "F:\Programs\anaconda3\envs\torchdl\lib\site-packages\torio\_extension\utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2024-11-30 17:28:36.599 - RealTimeSTT: root - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2024-11-30 17:28:36.599 - RealTimeSTT: root - WARNING - Audio queue size exceeds latency limit. Current size: 977. Discarding old audio chunks.
+2024-11-30 17:28:36.600 - RealTimeSTT: root - DEBUG - Starting realtime worker
+2024-11-30 17:28:36.600 - RealTimeSTT: root - DEBUG - Waiting for main transcription model to start
+2024-11-30 17:28:36.600 - RealTimeSTT: root - DEBUG - Main transcription model ready
+2024-11-30 17:28:36.600 - RealTimeSTT: root - DEBUG - RealtimeSTT initialization completed successfully
+2024-11-30 17:28:36.601 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:28:36.601 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:28:37.449 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:28:38.744 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:28:38.744 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:28:38.744 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:28:38.744 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:28:40.025 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:28:40.051 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:28:40.075 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:28:40.077 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:28:40.084 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:28:40.090 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:28:41.859 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 1.78 seconds
+2024-11-30 17:28:41.859 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:28:41.859 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:28:41.861 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:28:42.073 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:28:42.073 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:28:42.073 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:28:42.073 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:28:43.224 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:28:43.224 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:28:43.321 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:28:43.322 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:28:43.352 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:28:43.354 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:28:43.608 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.29 seconds
+2024-11-30 17:28:43.609 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:28:43.609 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:28:43.610 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:28:44.634 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:28:44.634 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:28:44.634 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:28:44.635 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:28:48.855 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:28:48.855 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:28:48.935 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:28:48.936 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:28:48.967 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:28:48.985 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:28:52.535 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 3.60 seconds
+2024-11-30 17:28:52.536 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:28:52.536 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:28:52.537 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:28:53.524 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:28:53.524 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:28:53.524 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:28:53.524 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:28:54.934 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:28:54.935 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:28:54.982 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:28:54.984 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:28:54.994 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:28:54.998 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:28:55.624 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.64 seconds
+2024-11-30 17:28:55.625 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:28:55.625 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:28:55.627 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:28:56.215 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:28:56.215 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:28:56.215 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:28:56.215 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:28:57.494 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:28:57.494 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:28:57.502 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:28:57.504 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:28:57.517 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:28:57.554 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:28:57.700 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.20 seconds
+2024-11-30 17:28:57.701 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:28:57.701 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:28:57.703 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:00.754 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:00.754 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:00.754 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:00.755 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:02.354 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:02.355 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:02.369 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:02.371 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:02.384 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:02.424 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:02.767 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.40 seconds
+2024-11-30 17:29:02.768 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:02.768 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:02.770 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:03.254 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:03.254 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:03.254 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:03.255 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:06.645 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:06.645 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:06.671 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:06.673 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:06.674 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:06.714 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:08.700 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 2.03 seconds
+2024-11-30 17:29:08.700 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:08.700 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:08.702 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:08.884 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:08.884 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:08.884 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:08.884 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:13.944 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:13.944 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:13.968 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:13.970 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:13.970 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:14.004 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:14.436 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.47 seconds
+2024-11-30 17:29:14.437 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:14.437 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:14.438 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:16.504 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:16.504 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:16.504 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:16.505 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:17.654 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:17.654 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:17.733 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:17.735 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:17.748 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:17.784 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:18.003 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.27 seconds
+2024-11-30 17:29:18.004 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:18.004 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:18.005 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:18.164 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:18.164 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:18.164 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:18.164 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:20.274 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:20.274 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:20.329 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:20.331 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:20.344 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:20.360 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:20.773 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.44 seconds
+2024-11-30 17:29:20.774 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:20.774 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:20.775 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:20.915 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:20.915 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:20.915 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:20.916 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:24.114 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:24.115 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:24.198 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:24.199 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:24.200 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:24.245 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:25.068 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.87 seconds
+2024-11-30 17:29:25.069 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:25.069 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:25.070 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:26.424 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:26.424 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:26.424 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:26.425 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:29.874 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:29.874 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:29.937 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:29.939 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:29.945 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:29.953 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:32.547 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 2.61 seconds
+2024-11-30 17:29:32.549 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:32.549 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:32.550 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:32.633 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:32.633 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:32.633 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:32.633 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:38.324 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:38.325 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:38.383 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:38.385 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:38.386 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:38.393 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:38.895 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.51 seconds
+2024-11-30 17:29:38.896 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:38.896 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:38.898 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:39.033 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:39.033 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:39.034 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:39.034 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:40.754 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:40.754 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:40.796 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:40.798 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:40.812 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:40.824 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:41.518 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.72 seconds
+2024-11-30 17:29:41.518 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:41.520 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:41.521 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:42.675 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:42.675 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:42.675 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:42.675 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:48.563 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:48.564 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:48.671 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:48.673 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:48.687 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:48.695 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:50.067 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 1.39 seconds
+2024-11-30 17:29:50.068 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:50.068 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:50.070 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:50.234 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:50.234 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:50.234 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:50.235 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:29:56.114 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:29:56.114 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:29:56.215 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:29:56.217 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:29:56.217 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:29:56.244 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:29:58.688 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 2.47 seconds
+2024-11-30 17:29:58.688 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:29:58.688 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:29:58.690 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:29:59.634 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:29:59.634 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:29:59.634 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:29:59.635 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:04.374 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:30:04.374 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:30:04.416 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:30:04.418 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:30:04.418 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:30:04.434 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:30:05.546 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 1.13 seconds
+2024-11-30 17:30:05.547 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:30:05.547 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:30:05.548 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:30:05.654 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:30:05.654 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:30:05.654 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:30:05.654 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:07.445 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:30:07.445 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:30:07.551 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:30:07.553 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:30:07.553 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:30:07.574 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:30:07.792 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.24 seconds
+2024-11-30 17:30:07.793 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:30:07.794 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:30:07.795 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:30:07.894 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:30:07.894 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:30:07.895 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:30:07.895 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:11.734 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:30:11.735 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:30:11.759 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:30:11.761 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:30:11.761 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:30:11.794 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:30:12.178 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.42 seconds
+2024-11-30 17:30:12.179 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:30:12.179 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:30:12.180 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:30:12.754 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:30:12.754 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:30:12.754 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:30:12.755 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:13.913 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:30:13.913 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:30:13.930 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:30:13.931 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:30:13.961 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:30:13.974 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:30:14.342 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.41 seconds
+2024-11-30 17:30:14.343 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:30:14.343 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:30:14.344 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:30:14.553 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:30:14.553 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:30:14.553 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:30:14.553 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:15.764 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:30:15.764 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:30:15.802 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:30:15.804 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:30:15.834 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:30:15.834 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:30:16.004 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.20 seconds
+2024-11-30 17:30:16.004 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:30:16.005 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:30:16.007 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:30:16.793 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:30:16.793 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:30:16.793 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:30:16.793 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:21.204 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:30:21.205 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:30:21.274 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:30:21.275 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:30:21.275 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:30:21.337 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:30:21.685 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.41 seconds
+2024-11-30 17:30:21.686 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:30:21.686 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:30:21.687 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:30:21.914 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:30:21.914 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:30:21.914 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:30:21.914 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:23.387 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:30:23.387 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:30:23.466 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:30:23.470 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:30:23.471 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:30:23.514 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:30:23.749 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.28 seconds
+2024-11-30 17:30:23.750 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:30:23.751 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:30:23.755 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:30:26.514 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:30:26.514 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:30:26.514 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:30:26.515 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:30.994 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:30:30.995 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:30:31.000 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:30:31.001 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:30:31.029 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:30:31.064 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:30:31.410 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.41 seconds
+2024-11-30 17:30:31.410 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:30:31.410 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:30:31.411 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:30:32.405 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:30:32.405 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:30:32.405 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:30:32.406 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:34.325 - RealTimeSTT: root - INFO - recording stopped
+2024-11-30 17:30:34.325 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2024-11-30 17:30:34.433 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2024-11-30 17:30:34.434 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2024-11-30 17:30:34.448 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2024-11-30 17:30:34.455 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2024-11-30 17:30:34.785 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.35 seconds
+2024-11-30 17:30:34.785 - RealTimeSTT: root - INFO - Setting listen time
+2024-11-30 17:30:34.785 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2024-11-30 17:30:34.787 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2024-11-30 17:30:35.865 - RealTimeSTT: root - INFO - voice activity detected
+2024-11-30 17:30:35.865 - RealTimeSTT: root - INFO - recording started
+2024-11-30 17:30:35.865 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2024-11-30 17:30:35.865 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2024-11-30 17:30:39.400 - RealTimeSTT: root - INFO - KeyboardInterrupt in wait_audio, shutting down
+2024-11-30 17:30:39.404 - RealTimeSTT: root - DEBUG - Finishing recording thread
+2024-11-30 17:30:39.415 - RealTimeSTT: root - DEBUG - Terminating reader process
+2024-11-30 17:30:39.766 - RealTimeSTT: root - INFO - KeyboardInterrupt in text() method
