@@ -1,4 +1,4 @@
-# AI Crusade 2024 Projects
+# AI Crusade 2024 Projects | AI MEET
 
 
 [![GitHub issues](https://img.shields.io/github/issues/KUAIC/AI-Crusade-2024?style=plastic)](https://github.com/KUAIC/AI-Crusade-2024/issues)
