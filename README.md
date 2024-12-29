@@ -14,7 +14,7 @@
 | S/N      | Team |Project Name| Description |
 | ----------- | ----------- |----------- |----------- |    
 | 1|Brain Drain|[EYELTS](https://github.com/KUAIC/AI-Crusade-2024/tree/main/Team%20Brain%20Drain)|A product that will personalize and streamline learning and practice for IELTS exams. Our main goal is to produce a personalized 'teacher' as well as teaching resources by leveraging the flexibility and adaptibility of AI systems. |
-| 3|LEVISA|[Football](https://github.com/KUAIC/AI-Crusade-2024/tree/main/Team%20LEVISA)|Helping supermarket track no of customers|
+| 3|LEVISA|[Footfall](https://github.com/KUAIC/AI-Crusade-2024/tree/main/Team%20LEVISA)|Helping supermarket track no of customers|
 | 2|Neural Pirates|[Int.AI](https://github.com/KUAIC/AI-Crusade-2024/tree/main/Team%20Neural%20Pirates)|Making room designing easier and affordable with AI|
 | 4|NoobCoders|[Smaran](https://github.com/KUAIC/AI-Crusade-2024/tree/main/Team%20NoobCoders)|Enhancing the future of elders care with AI: Providing quality care for our seniors.|
 | 5|Renaissance|[Agrosphere](https://github.com/KUAIC/AI-Crusade-2024/tree/main/Team%20Renaissance)|Empowering Farmers, Cultivating Futures|
